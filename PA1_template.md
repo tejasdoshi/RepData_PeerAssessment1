@@ -32,7 +32,7 @@ output:
        main="Histogram of the total number of steps taken each day")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
+![plot of chunk Histogram_of_total_steps_per_day](figure/Histogram_of_total_steps_per_day-1.png) 
 
 - Mean of total #of steps taken per day
 
@@ -74,7 +74,7 @@ output:
      xlab="Interval")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+![plot of chunk Time_series_Average_steps_per_5min_interval](figure/Time_series_Average_steps_per_5min_interval-1.png) 
 
 - Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -124,7 +124,7 @@ output:
        main="Histogram of the total number of steps taken each day")
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png) 
+![plot of chunk Histogram_of_total_steps_with_imputed_data](figure/Histogram_of_total_steps_with_imputed_data-1.png) 
 
 - Mean of total #of steps taken per day
 
@@ -182,5 +182,5 @@ There is only a minor difference from previous mean (1.0766189 &times; 10<sup>4<
          xlab="Interval")
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) 
+![plot of chunk Time_series_panel_per_daytype](figure/Time_series_panel_per_daytype-1.png) 
 

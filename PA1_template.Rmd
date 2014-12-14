@@ -18,7 +18,7 @@ output:
 
 - Histogram of the total number of steps taken each day
 
-```{r}
+```{r Histogram_of_total_steps_per_day}
   library(dplyr)
   
   activitydf_perday <- 
@@ -46,7 +46,7 @@ output:
 
 ## What is the average daily activity pattern?
 
-```{r}
+```{r Time_series_Average_steps_per_5min_interval}
   library(dplyr)
   
   activitydf_perinterval <- 
@@ -85,7 +85,7 @@ output:
 
 - Histogram of the total number of steps taken each day for the new dataset
 
-```{r}
+```{r Histogram_of_total_steps_with_imputed_data}
   activitydf_copy_perday <- 
     activitydf_copy %>% group_by(date) %>% summarize(stepsperday=sum(steps))
   
@@ -128,7 +128,7 @@ There is only a minor difference from previous mean (`r mean`) and median (`r me
 
 - Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). See the README file in the GitHub repository to see an example of what this plot should look like using simulated data.
 
-```{r}
+```{r Time_series_panel_per_daytype}
   activitydf_copy_perintervaldaytype <- 
     activitydf_copy %>% 
       group_by(interval, daytype) %>% 
